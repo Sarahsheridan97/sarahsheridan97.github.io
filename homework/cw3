@@ -1,9 +1,0 @@
----
-layout: default
-title: "Classwork"
-date: 2022-01-27
----
-<h1>{{ page.title }}</cw3>
-<ul class="posts">
-<li><a href="/homework/cw3/placeholder.xml">Placeholder Title</a></li>
-</ul>

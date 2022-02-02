@@ -2,6 +2,14 @@ body {
     margin: 60px auto;
     width: 70%;
 }
+
+div {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
 nav ul, footer ul {
     font-family:'Veranda', 'Geneva', 'Sans-Serif';
     padding: 0px;
@@ -19,7 +27,51 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+li {
+  display: inline;
+}
+
+title {
+    font-size: 4em;
+    font-family: Zapf-Chancery, cursive;
+    color: gray;
+    text-align: center;
+}
+
 h1 {
+    font-size: 3.3em;
+    font-family:'Veranda', 'Geneva', 'Sans-Serif';
+    color: green;
+    display: block;
+}
+
+h2 {
+    font-size: 3em;
+    font-family:'Veranda', 'Geneva', 'Sans-Serif';
+}
+
+h3 {
+    font-size: 3em;
+    font-family:'Veranda', 'Geneva', 'Sans-Serif';
+}
+
+h4 {
+    font-size: 3em;
+    font-family:'Veranda', 'Geneva', 'Sans-Serif';
+}
+
+h5 {
+    font-size: 3em;
+    font-family:'Veranda', 'Geneva', 'Sans-Serif';
+}
+
+h6 {
+    font-size: 3em;
+    font-family:'Veranda', 'Geneva', 'Sans-Serif';
+}
+
+h7 {
     font-size: 3em;
     font-family:'Veranda', 'Geneva', 'Sans-Serif';
 }

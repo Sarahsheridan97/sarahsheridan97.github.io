@@ -3,7 +3,20 @@ header {
   text-align: center;
   padding: 20px;
 }
-
+.column {
+  float: left;
+}
+.column.side {
+  width: 25%;
+}
+.column.middle {
+  width: 50%;
+}
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
 body {
     margin: 60px auto;
     width: 70%;
@@ -105,10 +118,5 @@ ul.posts {
 }
 
 ul.posts li {
-    list-style: vertical;
+    list-style: horizontal;
 }
-
-plant {
-    color: green;
-    list-style: none;
-      }

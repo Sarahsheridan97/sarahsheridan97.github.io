@@ -49,6 +49,8 @@ h1 {
 h2 {
     font-size: 2.5em;
     font-family:'Veranda', 'Geneva', 'Sans-Serif';
+    text-align: center;
+    color: gray;
 }
 
 h3 {

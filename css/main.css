@@ -77,7 +77,6 @@ h7 {
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #319;
 }
 footer {
     border-top: 1px solid #d5d5d5;
@@ -90,7 +89,7 @@ ul.posts {
 }
 
 ul.posts li {
-    list-style: none;
+    list-style: vertical;
 }
 
 plant {

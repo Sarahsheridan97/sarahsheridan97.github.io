@@ -35,21 +35,18 @@ li {
 title {
     font-size: 4em;
     font-family: Zapf-Chancery, cursive;
-    color: gray;
-    text-align: center;
+    color: purple;
 }
 
 h1 {
     font-size: 3em;
     font-family:'Veranda', 'Geneva', 'Sans-Serif';
     color: gray;
-    text-align: center;
 }
 
 h2 {
     font-size: 2.5em;
     font-family:'Veranda', 'Geneva', 'Sans-Serif';
-    text-align: center;
     color: gray;
 }
 

@@ -1,0 +1,101 @@
+body {
+    margin: 60px auto;
+    width: 70%;
+}
+
+div {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
+nav ul, footer ul {
+    font-family:'Veranda', 'Geneva', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: #799;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+li {
+  display: inline;
+}
+
+title {
+    font-size: 4em;
+    font-family: Zapf-Chancery, cursive;
+    color: gray;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    font-family:'Veranda', 'Geneva', 'Sans-Serif';
+    color: gray;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-family:'Veranda', 'Geneva', 'Sans-Serif';
+    text-align: center;
+    color: gray;
+}
+
+h3 {
+    font-size: 1.8em;
+    font-family:'Veranda', 'Geneva', 'Sans-Serif';
+}
+
+h4 {
+    font-size: 1.8em;
+    font-family:'Veranda', 'Geneva', 'Sans-Serif';
+}
+
+h5 {
+    font-size: 2em;
+    font-family:'Veranda', 'Geneva', 'Sans-Serif';
+}
+
+h6 {
+    font-size: 2em;
+    font-family:'Veranda', 'Geneva', 'Sans-Serif';
+}
+
+h7 {
+    font-size: 2em;
+    font-family:'Veranda', 'Geneva', 'Sans-Serif';
+}
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+}
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: vertical;
+}
+
+plant {
+    color: green;
+    list-style: none;
+      }

@@ -1,3 +1,9 @@
+header {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 20px;
+}
+
 body {
     margin: 60px auto;
     width: 70%;
@@ -34,53 +40,60 @@ li {
 
 title {
     font-size: 4em;
-    font-family: Zapf-Chancery, cursive;
+    font-family: "Georgia", "Times New Roman", Serif;
     color: gray;
     text-align: center;
+    font-variant: small-caps;
 }
 
 h1 {
     font-size: 3em;
-    font-family:'Veranda', 'Geneva', 'Sans-Serif';
+    font-family:"Georgia", "Times New Roman", Serif;
     color: gray;
     text-align: center;
 }
 
 h2 {
     font-size: 2.5em;
-    font-family:'Veranda', 'Geneva', 'Sans-Serif';
+    font-family:"Georgia", "Times New Roman", Serif;
     text-align: center;
     color: gray;
 }
 
 h3 {
     font-size: 1.8em;
-    font-family:'Veranda', 'Geneva', 'Sans-Serif';
+    font-family:"Georgia", "Times New Roman", Serif;
 }
 
 h4 {
     font-size: 1.8em;
-    font-family:'Veranda', 'Geneva', 'Sans-Serif';
+    font-family:"Georgia", "Times New Roman", Serif;
 }
 
 h5 {
     font-size: 2em;
-    font-family:'Veranda', 'Geneva', 'Sans-Serif';
+    font-family:"Georgia", "Times New Roman", Serif;
 }
 
 h6 {
     font-size: 2em;
-    font-family:'Veranda', 'Geneva', 'Sans-Serif';
+    font-family:"Georgia", "Times New Roman", Serif;
 }
 
 h7 {
     font-size: 2em;
-    font-family:'Veranda', 'Geneva', 'Sans-Serif';
+    font-family:"Georgia", "Times New Roman", Serif;
 }
 p {
     font-size: 1.5em;
     line-height: 1.4em;
+    text-indent: 50px;
+    text-rendering: optimizeLegibility;
 }
+p.italic {
+    font-style: italic;
+}
+    
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;

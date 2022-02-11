@@ -1,19 +1,19 @@
-header {
+.header {
   background-color: #F1F1F1;
   text-align: center;
   padding: 20px;
 }
-column {
+.column {
   float: left;
 }
-column.side {
+.column.side {
   width: 25%;
 }
-column.middle {
+.column.middle {
   width: 50%;
 }
 @media screen and (max-width: 600px) {
-  column.side, column.middle {
+  .column.side, .column.middle {
     width: 100%;
   }
 }
@@ -102,8 +102,6 @@ p {
     line-height: 1.4em;
     text-indent: 50px;
     text-rendering: optimizeLegibility;
-    class: row;
-    class: middle;
 }
 p.italic {
     font-style: italic;

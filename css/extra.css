@@ -1,5 +1,5 @@
 header {
-  background-color: navy;
+  background: rgba(0, 128, 0, 0.3);
   text-align: center;
   padding: 20px;
   color: white;
@@ -7,7 +7,7 @@ header {
 }
  
 card {
-  background-color: lightblue;
+  background: lightblue;
   background-image: linear-gradient(lightblue, lightyellow, lightgray);
   padding: 20px;
   margin-top: 20px;
@@ -85,6 +85,7 @@ h2 {
 h3 {
     font-size: 1.8em;
     font-family:"Georgia", "Times New Roman", Serif;
+  text-align:center
 }
 
 h4 {

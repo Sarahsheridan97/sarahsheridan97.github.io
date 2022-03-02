@@ -16,10 +16,10 @@ column {
   float: left;
 }
 column.side {
-  width: 10%;
+  width: 15%;
 }
 column.middle {
-  width: 80%;
+  width: 70%;
 }
 @media screen and (max-width: 600px) {
   column.side, column.middle {
@@ -57,13 +57,13 @@ a:hover {
 }
 
 li {
-  display: inline;
+  display: block;
 }
 
 title {
     font-size: 4em;
     font-family: "Georgia", "Times New Roman", Serif;
-    color: gray;
+    color: darkgray;
     text-align: center;
     font-variant: small-caps;
 }
@@ -79,7 +79,7 @@ h2 {
     font-size: 2.5em;
     font-family:"Georgia", "Times New Roman", Serif;
     text-align: center;
-    color: gray;
+    color: darkgray;
 }
 
 h3 {
@@ -91,6 +91,7 @@ h3 {
 h4 {
     font-size: 1.8em;
     font-family:"Georgia", "Times New Roman", Serif;
+  text-align:center
 }
 
 h5 {

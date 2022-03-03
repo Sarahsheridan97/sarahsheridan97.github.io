@@ -1,17 +1,17 @@
 header {
-  background: rgba(0, 128, 0, 0.3);
+  background: lightpurple;
   text-align: center;
   padding: 20px;
   color: gradient(lightblue, lightyellow, lightgray);
-  border: dotted;
+  border: none;
 }
 
 head {
-  background: rgba(0, 128, 0, 0.3);
+  background: gradient(lightblue, lightyellow, lightgray);
   text-align: center;
   padding: 20px;
   background-image: gradient(lightblue, lightyellow, lightgray);
-  border: dotted;
+  border: none;
 }
 
 column {
